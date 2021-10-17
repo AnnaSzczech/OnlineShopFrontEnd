@@ -1,0 +1,74 @@
+.background {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 50px;
+    height: 100%;
+    min-height: 100vh;
+  }
+.sign {
+  max-width: 500px;
+  min-height: 500px;
+  margin: 100px auto;
+  padding: 46px;
+  background-color: #fff;
+  box-shadow: 0 2px 0 0 rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  font-size: 1.75rem;
+  font-family: "Roboto",sans-serif;
+  color: #02ac46;
+}
+.register {
+  max-width: 500px;
+  min-height: 600px;
+  margin: 100px auto;
+  padding: 46px;
+  background-color: #fff;
+  box-shadow: 0 2px 0 0 rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  font-size: 1.75rem;
+  font-family: "Roboto",sans-serif;
+  color: #02ac46;
+}
+fieldset {
+  padding: 10px 5px 5px;
+}
+.form-control {
+  border: 1px solid #DCDCDC;
+  border-radius: 3px;
+  font-weight: 300;
+  height: 50px;
+  width: 100%;
+  padding: .375rem .75rem;
+}
+.form-control:focus {
+  border-color: #02ac46;   
+  box-shadow: 0 0 0 0.1rem #02ac46;
+}
+.move-to-right {
+  float: right;
+  margin: 15px 5px 5px 5px;
+}
+.line {
+  background-color: #f1f1f1;
+  height: 2px;
+  position: relative;
+  text-align: center;
+  font-family: 'Raleway', 'Roboto', sans-serif;
+  color: #f1f1f1;
+  margin: 25px 5px 20px 5px;
+}
+.line h6 {
+  font-weight: 900;
+  position: relative;
+  background: #fff;
+  display: inline-block;
+  padding: 0 5px;
+  top: -25px;
+  margin: 0;
+  font-size: 14px;
+  color: #f1f1f1;
+  width: auto;
+}
+.large{
+  width: 100%;
+}
