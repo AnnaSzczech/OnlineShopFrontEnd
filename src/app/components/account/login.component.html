@@ -1,0 +1,20 @@
+<div class="background">
+    <div class="sign">
+      <h4>{{title}}</h4>
+      <form #form="ngForm" (ngSubmit)="onSubmit(form)" role="form">
+        <button class="btn btn-outline-success large">Join as guest</button>
+        <button class="btn btn-outline-success large" [routerLink]="['/registration']">Registration</button>
+        <div class="line"><h6>OR</h6></div>
+        <fieldset>
+          <input id="login" name="username" class="form-control" type="text" placeholder="login" [(ngModel)]="credentials.username" required>
+        </fieldset>
+        <fieldset>
+          <input name="password" class="form-control" placeholder="password" type="password" [(ngModel)]="credentials.password" required>
+        </fieldset>
+        <div class="move-to-right"><button class="btn btn-outline-success" type="submit">Sign in</button></div>
+      </form>
+
+      <!-- <div class="alert alert-danger" [hidden]="!error">There was a problem logging in. Please try again.</div> -->
+
+    </div>
+  </div>
